@@ -6,7 +6,7 @@ import axios from 'axios';
 import { useAuthStore } from '../state/authStore';
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: "http://ai-resume-analyzer-saas.onrender.com",
   headers: {
     'Content-Type': 'application/json',
   },
